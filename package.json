@@ -10,7 +10,7 @@
     "license": "MIT",
     "author": "cjk <cjk7072@closeli.cn> (https://github.com/attraction11)",
     "main": "lib/index.js",
-    "bin": "bin/gulp-pages.js",
+    "bin": "bin/gulp-temp-pages.js",
     "files": [
         "lib",
         "bin"
