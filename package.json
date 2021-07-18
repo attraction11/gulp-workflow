@@ -1,0 +1,53 @@
+{
+    "name": "gulp-pages",
+    "version": "0.1.0",
+    "description": "Awesome node modules.",
+    "keywords": [
+        "gulp-pages",
+        "zce"
+    ],
+    "repository": "attraction11/gulp-pages",
+    "license": "MIT",
+    "author": "cjk <cjk7072@closeli.cn> (https://github.com/attraction11)",
+    "main": "lib/index.js",
+    "bin": "bin/gulp-pages.js",
+    "files": [
+        "lib",
+        "bin"
+    ],
+    "scripts": {
+        "lint": "standard --fix",
+        "prepare": "npm run lint"
+    },
+    "renovate": {
+        "extends": [
+            "zce"
+        ]
+    },
+    "dependencies": {
+        "@babel/core": "^7.14.6",
+        "@babel/preset-env": "^7.14.7",
+        "browser-sync": "^2.27.4",
+        "del": "^6.0.0",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-if": "^3.0.0",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-load-plugins": "^2.0.7",
+        "gulp-sass": "^4.1.0",
+        "gulp-swig": "^0.9.1",
+        "gulp-uglify": "^3.0.2",
+        "gulp-useref": "^5.0.0"
+    },
+    "devDependencies": {
+        "standard": "16.0.3"
+    },
+    "engines": {
+        "node": ">=10"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org"
+    }
+}
