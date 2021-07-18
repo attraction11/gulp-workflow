@@ -1,12 +1,12 @@
 {
-    "name": "gulp-pages",
-    "version": "0.1.0",
+    "name": "gulp-temp-pages",
+    "version": "0.2.0",
     "description": "Awesome node modules.",
     "keywords": [
-        "gulp-pages",
-        "zce"
+        "gulp-temp-pages",
+        "cjk"
     ],
-    "repository": "attraction11/gulp-pages",
+    "repository": "attraction11/gulp-temp-pages",
     "license": "MIT",
     "author": "cjk <cjk7072@closeli.cn> (https://github.com/attraction11)",
     "main": "lib/index.js",
@@ -21,7 +21,7 @@
     },
     "renovate": {
         "extends": [
-            "zce"
+            "cjk"
         ]
     },
     "dependencies": {
