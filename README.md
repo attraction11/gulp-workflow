@@ -1,4 +1,4 @@
-# gulp-pages
+# gulp-temp-pages
 
 [![License][license-img]][license-url]
 [![NPM Downloads][downloads-img]][downloads-url]
@@ -12,10 +12,10 @@
 ## Installation
 
 ```shell
-$ npm install gulp-pages
+$ npm install gulp-temp-pages
 
 # or yarn
-$ yarn add gulp-pages
+$ yarn add gulp-temp-pages
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ $ yarn add gulp-pages
 <!-- TODO: Introduction of Usage -->
 
 ```javascript
-const gulpPages = require('gulp-pages')
+const gulpPages = require('gulp-temp-pages')
 const result = gulpPages('w')
 // result => 'w@zce.me'
 ```
@@ -32,7 +32,7 @@ const result = gulpPages('w')
 
 <!-- TODO: Introduction of API -->
 
-### gulpPages(input, options?)
+### gulpTempPages(input, options?)
 
 #### input
 
