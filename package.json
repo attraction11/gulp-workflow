@@ -1,16 +1,16 @@
 {
-    "name": "gulp-temp-pages",
+    "name": "gulp-workflow",
     "version": "0.2.2",
     "description": "Awesome node modules.",
     "keywords": [
-        "gulp-temp-pages",
+        "gulp-workflow",
         "cjk"
     ],
-    "repository": "attraction11/gulp-temp-pages",
+    "repository": "attraction11/gulp-workflow",
     "license": "MIT",
     "author": "cjk <cjk7072@closeli.cn> (https://github.com/attraction11)",
     "main": "lib/index.js",
-    "bin": "bin/gulp-temp-pages.js",
+    "bin": "bin/gulp-workflow.js",
     "files": [
         "lib",
         "bin"
@@ -39,11 +39,11 @@
         "gulp-sass": "^4.1.0",
         "gulp-swig": "^0.9.1",
         "gulp-uglify": "^3.0.2",
-        "gulp-useref": "^5.0.0"
+        "gulp-useref": "^5.0.0",
+        "minimist": "^1.2.5",
+		"standard": "^14.3.4"
     },
-    "devDependencies": {
-        "standard": "16.0.3"
-    },
+    "devDependencies": {},
     "engines": {
         "node": ">=10"
     },
